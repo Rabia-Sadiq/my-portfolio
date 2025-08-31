@@ -26,7 +26,7 @@ const projects = [
     title: "YT-Summarizer",
     description: "A Python-based application that summarizes YouTube videos by extracting and condensing key information.",
     technologies: ["Python", "NLP"],
-    featured: true,
+    featured: false,
     github: "https://github.com/Rabia-Sadiq/yt-summerizer",
     demo: "https://www.linkedin.com/posts/rabia-sadiq-73656a270_techjourney-pythonprojects-whisperai-activity-7354070652309356545-o4Ug?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJKaZoBVPAkRrA_LjDeicdLz0Mkh-jgbYE" // could add streamlit or flask demo later
   },
@@ -34,7 +34,7 @@ const projects = [
     title: "Sales Prediction",
     description: "A desktop-based Java Swing application that predicts sales trends using simple machine learning logic.",
     technologies: ["Java", "Swing", "Machine Learning"],
-    featured: true,
+    featured: false,
     github: "https://github.com/Rabia-Sadiq/SalesPrediction",
     demo: "" // desktop app → no live demo
   },
@@ -42,7 +42,7 @@ const projects = [
     title: "Mini Olympic System",
     description: "A relational database project to manage athletes, event registrations, and results in a mini Olympic-style system.",
     technologies: ["MySQL", "Database Design", "SQL"],
-    featured: true,
+    featured: false,
     github: "https://github.com/Rabia-Sadiq/Mini-Olympic-System",
     demo: "" 
   },
@@ -94,7 +94,7 @@ const projects = [
               >
                 <CardHeader>
                   <div className="flex justify-between items-start mb-2">
-                    <CardTitle className="text-xl text-foreground">{project.title}</CardTitle>
+                    <CardTitle className="text-xl text-foreground text-blue-900">{project.title}</CardTitle>
                     {project.featured && (
                       <Badge className="hero-gradient text-white border-0">Featured</Badge>
                     )}
@@ -106,7 +106,7 @@ const projects = [
                 <CardContent>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech, techIndex) => (
-                      <Badge key={techIndex} variant="outline" className="text-xs">
+                      <Badge key={techIndex} variant="outline" className="text-xs text-blue-800">
                         {tech}
                       </Badge>
                     ))}

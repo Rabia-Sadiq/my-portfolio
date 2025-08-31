@@ -9,7 +9,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      content: "rabia@gamail.com",
+      content: "rabiasadiq@gmail.com",
       link: "mailto:abdullahazor2016@gmail.com"
     },
     {
