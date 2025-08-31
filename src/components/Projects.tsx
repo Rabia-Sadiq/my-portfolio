@@ -9,7 +9,7 @@ const projects = [
     title: "RailsProject",
     description: "A Ruby on Rails project showcasing modern web development with HTML integration and backend logic.",
     technologies: ["Ruby on Rails", "HTML", "PostgreSQL"],
-    featured: true,
+    featured: false,
     github: "https://github.com/Rabia-Sadiq/RailsProject",
     demo: "https://www.linkedin.com/posts/rabia-sadiq-73656a270_ai-fullstackdevelopment-rubyonrails-activity-7338789252681338882-XG1O?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJKaZoBVPAkRrA_LjDeicdLz0Mkh-jgbYE" // no live demo yet
   },
@@ -17,7 +17,7 @@ const projects = [
   title: "Zameen.com Clone",
   description: "A MERN stack property listing platform with pages like Home, Area Guide, Map, Login/Signup.",
   technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
-  featured: true,
+  featured: false,
   github: "https://github.com/your-username/Zameen.com-Clone", // replace with actual repo name if different
   demo: "https://www.linkedin.com/posts/rabia-sadiq-73656a270_mern-webdevelopment-reactjs-activity-7296512718717542400-ikdc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJKaZoBVPAkRrA_LjDeicdLz0Mkh-jgbYE" // you can add a deployed link if hosted (Netlify/Vercel/Render)
 },
